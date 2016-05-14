@@ -89,9 +89,9 @@ Edit the file `config/db.php` with real data, for example:
 ```php
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '1234',
+    'dsn' => 'mysql:host=127.0.0.1;dbname=yii2_basic_doingiteasy',
+    'username' => 'mysql',
+    'password' => 'mysql',
     'charset' => 'utf8',
 ];
 ```
